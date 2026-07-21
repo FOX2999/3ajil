@@ -278,4 +278,4 @@ with gr.Blocks(title="3AJIL Admin Panel") as admin_app:
     )
 
 if __name__ == "__main__":
-    admin_app.launch(css=forest_glass_css)
+    admin_app.launch(css=forest_glass_css, share=True)
