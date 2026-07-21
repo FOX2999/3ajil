@@ -150,7 +150,7 @@ def get_header_html(lang="ar"):
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <circle cx="12" cy="12" r="10"></circle>
                     <line x1="2" y1="12" x2="22" y2="12"></line>
-                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10z"></path>
                 </svg>
             </button>
             <button class="header-btn px-btn" onclick="window.toggleTheme();" title="{theme_title}">
@@ -377,4 +377,4 @@ with gr.Blocks(title="3AJIL | عاجل", css=custom_css) as demo:
     demo.load(None, None, None, js=custom_js)
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(share=True)
