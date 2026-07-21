@@ -1,4 +1,4 @@
-import gradio
+import gradio as gr
 import json
 import os
 import time
